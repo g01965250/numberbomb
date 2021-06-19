@@ -62,6 +62,8 @@ function App() {
         }else{
           setAns(ans)
         }
+      }else{
+        setAns('')
       }
     }else{
       setAns('')
