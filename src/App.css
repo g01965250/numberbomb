@@ -1,38 +1,120 @@
-.App {
+*{
+  margin: 0;
+  top: 0;
+  left: 0;
+  box-sizing: border-box;
+  background-color: #000;
+}
+.wrapper{
+  width: 1200px;
+  margin: 0 auto;
   text-align: center;
+  background-color: #000;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Ans{
+  color: #fff;
+  margin: 30px 0 ;
+  font-size: 50px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.text{
+  color: #FFF;
+  font-size: 26px;
+  font-weight: bold;
+  border: none;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.input_number{
+  width: 50px;
+  height: 50px;
+  font-size: 42px;
+  margin: 5px auto;
+  background: #363636;
+  color: #CACACA;
+  border: none;
+  
+}
+.input{
+  width: 412px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+.number_btn{
+  display: block;
+  font-size: 40px;
+  padding: 13px 25px;
+  margin: 5px;
+  border-radius: 10px;
+  background-color: #ff9900;
+  color:#000;
+  font-weight: bold;
+  border: none;
+}
+.number_btn:active{
+  background: #1f1f1f;
+  color: #fff;
 }
 
-.App-link {
-  color: #61dafb;
+.text_wrapper{
+  display: flex;
+  justify-content: space-around;
+  width: 412px;
+  text-align: center;
+  padding: 10px 0;
+  margin: 10px 0 0;
+}
+.text_wrapper .text{
+  padding: 15px;
+  background: #1f1f1f;
+  border-radius: 10px;
+  padding: 10px 20px;
+  margin: 10px 0 0;
+}
+.text_wrapper .text:active{
+  background-color: #ff9900;
+  color: #000;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+@media screen and (max-width:414px) {
+  .wrapper{
+    width: 414px;
   }
 }
+
+@media screen and (max-width:375px) {
+  .wrapper{
+    width: 376px;
+  }
+  .Ans{
+    font-size: 45px;
+  }
+  .input{
+    width: 375px;
+    padding: 0 64px;
+    justify-content: center;
+  }
+  .text_wrapper{
+    position: relative;
+    margin: 0 0;
+  }
+  .text_wrapper .clear_btn{
+    position: absolute;
+    top: -75px;
+    left: 5px;
+    padding: 18px 10px;
+  }
+  .text_wrapper .enter_btn{
+    position: absolute;
+    top: -75px;
+    left: 170px;
+    padding: 18px 10px;
+  }
+  .text_wrapper .start_btn{
+    padding: 15px 90px;
+  }
+  .text_wrapper .text{
+    margin: 0 0;
+  }
+}
+
+
