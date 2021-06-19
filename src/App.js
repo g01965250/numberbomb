@@ -62,9 +62,9 @@ function App() {
         }else{
           setAns(ans)
         }
-      }else{
-        setAns('')
       }
+    }else{
+      setAns('')
     }
     if(key ==="Enter"){
       handleEnter()
