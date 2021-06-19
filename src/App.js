@@ -33,12 +33,14 @@ function App() {
       if(max>ans){
         setMax(ans)
       }else{
+        setMax(max)
         setAns('')
       }
     }else if (ans<num){
       if(ans>min){
         setMin(ans)
         }else{
+          setMin(min)
           setAns('')
         }
     }else{
