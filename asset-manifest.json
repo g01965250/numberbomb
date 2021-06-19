@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/numberbomb/static/css/main.a06786bf.chunk.css",
-    "main.js": "/numberbomb/static/js/main.ba4fab95.chunk.js",
-    "main.js.map": "/numberbomb/static/js/main.ba4fab95.chunk.js.map",
+    "main.js": "/numberbomb/static/js/main.6ab887d4.chunk.js",
+    "main.js.map": "/numberbomb/static/js/main.6ab887d4.chunk.js.map",
     "runtime-main.js": "/numberbomb/static/js/runtime-main.9d7cd8e5.js",
     "runtime-main.js.map": "/numberbomb/static/js/runtime-main.9d7cd8e5.js.map",
     "static/js/2.47096b09.chunk.js": "/numberbomb/static/js/2.47096b09.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.9d7cd8e5.js",
     "static/js/2.47096b09.chunk.js",
     "static/css/main.a06786bf.chunk.css",
-    "static/js/main.ba4fab95.chunk.js"
+    "static/js/main.6ab887d4.chunk.js"
   ]
 }
