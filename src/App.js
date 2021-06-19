@@ -3,8 +3,8 @@ import { useState , useEffect } from 'react'
 
 function App() {
   const[ num , setNum ] = useState()
-  const[ min , setMin ] = useState(0)
-  const[ max , setMax ] = useState(100)
+  const[ min , setMin ] = useState('-')
+  const[ max , setMax ] = useState('-')
   const[ ans , setAns ] = useState('')
 
 
@@ -43,8 +43,8 @@ function App() {
         }
     }else{
       setNum()
-      setMin(0)
-      setMax(100)
+      setMin('-')
+      setMax('-')
       setAns('')
       alert('過關')
     }
