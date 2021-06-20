@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/numberbomb/static/css/main.a06786bf.chunk.css",
+    "main.css": "/numberbomb/static/css/main.e4fa4e7f.chunk.css",
     "main.js": "/numberbomb/static/js/main.3f36e403.chunk.js",
     "main.js.map": "/numberbomb/static/js/main.3f36e403.chunk.js.map",
     "runtime-main.js": "/numberbomb/static/js/runtime-main.9d7cd8e5.js",
@@ -10,13 +10,13 @@
     "static/js/3.b130a956.chunk.js": "/numberbomb/static/js/3.b130a956.chunk.js",
     "static/js/3.b130a956.chunk.js.map": "/numberbomb/static/js/3.b130a956.chunk.js.map",
     "index.html": "/numberbomb/index.html",
-    "static/css/main.a06786bf.chunk.css.map": "/numberbomb/static/css/main.a06786bf.chunk.css.map",
+    "static/css/main.e4fa4e7f.chunk.css.map": "/numberbomb/static/css/main.e4fa4e7f.chunk.css.map",
     "static/js/2.47096b09.chunk.js.LICENSE.txt": "/numberbomb/static/js/2.47096b09.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.9d7cd8e5.js",
     "static/js/2.47096b09.chunk.js",
-    "static/css/main.a06786bf.chunk.css",
+    "static/css/main.e4fa4e7f.chunk.css",
     "static/js/main.3f36e403.chunk.js"
   ]
 }
